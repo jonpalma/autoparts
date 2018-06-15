@@ -1,0 +1,197 @@
+
+
+/* FONTS */
+@font-face {
+    src: url("fonts/AvenirNextLTPro-Bold.otf");
+    font-family: "AvenirNextBold";
+}
+
+@font-face {
+    src: url("fonts/AvenirNextLTPro-Regular.otf");
+    font-family: "AvenirNextRegular";
+}
+
+/* GENERAL */
+body {
+    font-family: "AvenirNextRegular", sans-serif;
+}
+
+.bold {
+    font-family: "AvenirNextRegular", sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 0;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.absolute-container {
+    position: absolute;
+}
+
+.relative-container {
+    position: relative;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.spacing {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.section-title:before,
+.section-title:after {
+    content: '';
+    background-color: #ed2024;
+    position: absolute;
+}
+
+.section-title:before {
+    left: 0;
+    bottom: -20px;
+    width: 100px;
+    height: 3px;
+}
+
+.section-title:after {
+    left: 50px;
+    bottom: -24px;
+    width: 35px;
+    height: 11px;
+}
+
+.img-container {
+    background-position-x: center!important;
+    background-position-y: center!important;
+    background-size: cover!important;
+}
+
+/* NAVBAR */
+.top-nav {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar {
+    height: 150px;
+}
+
+.navbar .navbar-brand img {
+    max-width: 250px;
+}
+
+.navbar-nav {
+    width: 100%;
+    max-width: 992px;
+}
+
+.navbar-nav .nav-item {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item:not(:nth-last-of-type(1)):not(:nth-last-of-type(2)):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 20px;
+    background-color: #000;
+}
+
+.navbar-nav .nav-item:nth-last-of-type(1) {
+    background-color: #ed2024;
+    border-radius: 8px;
+}
+
+.navbar-nav .nav-item:nth-last-of-type(1)>a {
+    color: #fff;
+}
+
+/* BANNER */
+.banner {
+    background: url("img/banner/bg1.jpg") no-repeat center center;
+    background-size: cover;
+    height: calc(100vh - 204px);
+    overflow: hidden;
+    position: relative;
+}
+
+.banner:before,
+.banner:after {
+    content: '';
+    position: absolute;
+    background: #ed2024;
+    right: 0;
+}
+
+.banner:before {
+    top: 0;
+    left: -38vh;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    height: calc(140vh - 204px);
+    width: calc(170vh - 204px);
+    opacity: .71;
+}
+.banner:after {
+    bottom: 0;
+    left: 69vh;
+    right: 0;
+    background: #ed2024;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    height: calc(50vh - 204px);
+    width: calc(56vh - 204px);
+    opacity: .71;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.banner button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+/* NOSOTROS */
+.img-container {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        height: auto;
+    }
+    .navbar .navbar-brand img {
+        height: 50px;
+    }
+    .banner {
+        height: calc(100vh - 130px);
+    }
+}
