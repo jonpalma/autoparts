@@ -44,4 +44,56 @@
             </div>
         </div>
     </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--/* SERVICIOS */-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="servicios big-spacing relative-container" id="servicios">
+        <div class="container">
+            <h2 class="bold text-white">Servicios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="img-container" style="background: url(img/servicios/1.jpg) no-repeat center center">
+                        <span class="text">Entrega</span>
+                        <span class="lines-decor"></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="img-container" style="background: url(img/servicios/2.jpg) no-repeat center center">
+                        <span class="text">Nuevas</span>
+                        <span class="lines-decor"></span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="img-container" style="background: url(img/servicios/3.jpg) no-repeat center center">
+                        <span class="text">Usadas</span>
+                        <span class="lines-decor"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HEXAGON BACKGROUND SVG -->
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+            <defs>
+                <pattern id="hexagons" width="50" height="43.4" patternUnits="userSpaceOnUse" patternTransform="scale(3) translate(2) rotate(0)">
+                    <polygon points="24.8,22 37.3,29.2 37.3,43.7 24.8,50.9 12.3,43.7 12.3,29.2" id="hex" />
+                    <use xlink:href="#hex" x="25" />
+                    <use xlink:href="#hex" x="-25" />
+                    <use xlink:href="#hex" x="12.5" y="-21.7" />
+                    <use xlink:href="#hex" x="-12.5" y="-21.7" />
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#hexagons)" />
+        </svg>
+    </div>
+    <div class="autopartes spacing" id="autopartes">
+        <div class="container">
+            <h2 class="section-title">Auto<span class="bold">partes</span></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+    </div>
 <?php include "footer.php"; ?>
