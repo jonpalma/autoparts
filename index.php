@@ -87,6 +87,11 @@
             <rect width="100%" height="100%" fill="url(#hexagons)" />
         </svg>
     </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--/* AUTOPARTES */-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <div class="autopartes spacing" id="autopartes">
         <div class="container">
             <h2 class="section-title">Auto<span class="bold">partes</span></h2>
@@ -94,6 +99,238 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
             </p>
+            <div id="brandsCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-keyboard="true" data-pause="hover" data-interval="5000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                            </div>
+                            <div class="col-4 col-sm-4 col-md text-center">
+                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#brandsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#brandsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--/* COTIZADOR */-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="cotizador spacing" id="cotizador">
+        <div class="container">
+            <form action="" method="POST">
+                <h2 class="section-title no-separator">Cotiza con <span class="bold">nostros</span></h2>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Nombre" class="form-control">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Teléfono" class="form-control">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Empresa" class="form-control">
+                    </div>
+                    <div class="col">
+                        <input type="email" placeholder="Correo" class="form-control">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Ciudad" class="form-control">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <label for="">Marca</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label for="">Modelo</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label for="">Año</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label for="">Pieza</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label for="">Objeto</label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="semi-table">
+                    <div class="t-body row">
+                        <div class="col">
+                            <span class="text">FORD</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">LOBO</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">2018</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">FENDER</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">DELANTE</span>
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="t-body row">
+                        <div class="col">
+                            <span class="text">FORD</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">LOBO</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">2018</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">FENDER</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">DELANTE</span>
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="t-body row">
+                        <div class="col">
+                            <span class="text">FORD</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">LOBO</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">2018</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">FENDER</span>
+                        </div>
+                        <div class="col">
+                            <span class="text">DELANTE</span>
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-right">
+                        <input class="btn" type="submit" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--/* MAPA */-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="mapa" id="mapa">
+        <div class="googleMap" data-lat="28.674055" data-long="-106.077613" data-title="Autoparts"></div>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--/* DIV */-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="contact spacing" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Ponte en <span class="bold">contácto</span></h2>
         </div>
     </div>
 <?php include "footer.php"; ?>
