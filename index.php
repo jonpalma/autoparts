@@ -49,7 +49,7 @@
     <!--/* SERVICIOS */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="servicios big-spacing relative-container" id="servicios">
+    <div class="servicios big-spacing relative-container hex-bg-patter" id="servicios">
         <div class="container">
             <h2 class="bold text-white">Servicios</h2>
             <div class="row">
@@ -74,7 +74,7 @@
             </div>
         </div>
         <!-- HEXAGON BACKGROUND SVG -->
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+        <!--<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
             <defs>
                 <pattern id="hexagons" width="50" height="43.4" patternUnits="userSpaceOnUse" patternTransform="scale(3) translate(2) rotate(0)">
                     <polygon points="24.8,22 37.3,29.2 37.3,43.7 24.8,50.9 12.3,43.7 12.3,29.2" id="hex" />
@@ -85,7 +85,7 @@
                 </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#hexagons)" />
-        </svg>
+        </svg>-->
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
