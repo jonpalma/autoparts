@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-8 col-sm-10">
                         <h1 class="bold text-white">Surtimos para toda la República Mexicana</h1>
-                        <button>Cotizar ahora&nbsp;<i class="fas fa-arrow-right"></i></button>
+                        <button class="btn">Cotizar ahora&nbsp;<i class="fas fa-arrow-right"></i></button>
                     </div>
                 </div>
             </div>
@@ -328,9 +328,73 @@
     <!--/* DIV */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <div class="contact spacing" id="contacto">
+    <div class="contacto spacing" id="contacto">
         <div class="container">
             <h2 class="section-title">Ponte en <span class="bold">contácto</span></h2>
+            <div class="row">
+                <div class="col-12 col-md-7 col-lg-8">
+                    <form action="" method="POST">
+                        <div class="row no-margin">
+                            <div class="col-6">
+                                <input type="text" name="name" id="name" placeholder="Nombre" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" name="phone" id="phone" placeholder="Teléfono" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" name="company" id="company" placeholder="Empresa" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="email" name="email" id="email" placeholder="Correo" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="msg" id="msg" cols="30" rows="4" placeholder="Mensaje" required></textarea>
+                                <input type="submit" value="ENVIAR">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4">
+                    <div class="contact-info phone row no-margin align-items-center">
+                        <div class="col-auto">
+                            <a href="" class="sqr-i-btn sqr-red">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <span class="text">
+                                Oficina  (33) 36412290<br>
+                                Whatsapp  +1832 875 2314
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-info email row no-margin align-items-center">
+                        <div class="col-auto">
+                            <a href="" class="sqr-i-btn sqr-red">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <span class="text">
+                                ventas@autoparts.com.mx
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-info address row no-margin align-items-center">
+                        <div class="col-auto">
+                            <a href="" class="sqr-i-btn sqr-red">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <span class="text">
+                                Carretera libre a Zapotlanejo No. 2210<br>
+                                Col. Jauja. Guadalajara, Jal.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 <?php include "footer.php"; ?>

@@ -32,10 +32,10 @@
                             </ul>
                         </div>
                         <div class="col-auto social-media">
-                            <a href="">
+                            <a href="" class="sqr-i-btn sqr-white">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="">
+                            <a href="" class="sqr-i-btn sqr-white">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>
