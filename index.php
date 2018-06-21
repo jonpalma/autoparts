@@ -208,105 +208,50 @@
                 <h2 class="section-title no-separator">Cotiza con <span class="bold">nostros</span></h2>
                 <div class="row">
                     <div class="col">
-                        <input type="text" placeholder="Nombre" class="form-control">
+                        <input type="text" name="name" placeholder="Nombre" class="form-control">
                     </div>
                     <div class="col">
-                        <input type="text" placeholder="Teléfono" class="form-control">
+                        <input type="text" name="phone" placeholder="Teléfono" class="form-control">
                     </div>
                     <div class="col">
-                        <input type="text" placeholder="Empresa" class="form-control">
+                        <input type="text" name="company" placeholder="Empresa" class="form-control">
                     </div>
                     <div class="col">
-                        <input type="email" placeholder="Correo" class="form-control">
+                        <input type="email" name="email" placeholder="Correo" class="form-control">
                     </div>
                     <div class="col">
-                        <input type="text" placeholder="Ciudad" class="form-control">
+                        <input type="text" name="city" placeholder="Ciudad" class="form-control">
                     </div>
                 </div>
                 <hr>
                 <div class="row">
                     <div class="col">
                         <label for="">Marca</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="brand" class="form-control">
                     </div>
                     <div class="col">
                         <label for="">Modelo</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="model" class="form-control">
                     </div>
                     <div class="col">
                         <label for="">Año</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="year" class="form-control">
                     </div>
                     <div class="col">
                         <label for="">Pieza</label>
-                        <input type="text" class="form-control">
+                        <input type="text" id="piece" class="form-control">
                     </div>
                     <div class="col">
                         <label for="">Objeto</label>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control">
+                            <input type="text" id="object" class="form-control">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button"><i class="fas fa-plus"></i></button>
+                                <button class="btn btn-outline-secondary" type="button" id="add-table-row"><i class="fas fa-plus"></i></button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="semi-table">
-                    <div class="t-body row">
-                        <div class="col">
-                            <span class="text">FORD</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">LOBO</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">2018</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">FENDER</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">DELANTE</span>
-                            <i class="fas fa-times"></i>
-                        </div>
-                    </div>
-                    <div class="t-body row">
-                        <div class="col">
-                            <span class="text">FORD</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">LOBO</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">2018</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">FENDER</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">DELANTE</span>
-                            <i class="fas fa-times"></i>
-                        </div>
-                    </div>
-                    <div class="t-body row">
-                        <div class="col">
-                            <span class="text">FORD</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">LOBO</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">2018</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">FENDER</span>
-                        </div>
-                        <div class="col">
-                            <span class="text">DELANTE</span>
-                            <i class="fas fa-times"></i>
-                        </div>
-                    </div>
-                </div>
+                <div class="semi-table" id="quot-table"></div>
                 <div class="row">
                     <div class="col text-right">
                         <input class="btn" type="submit" value="Enviar">
@@ -333,7 +278,7 @@
             <h2 class="section-title">Ponte en <span class="bold">contácto</span></h2>
             <div class="row">
                 <div class="col-12 col-md-7 col-lg-8">
-                    <form action="" method="POST">
+                    <form action="mailer.php" method="POST" class="contact-form">
                         <div class="row no-margin">
                             <div class="col-6">
                                 <input type="text" name="name" id="name" placeholder="Nombre" required>
@@ -349,7 +294,9 @@
                             </div>
                             <div class="col-12">
                                 <textarea name="msg" id="msg" cols="30" rows="4" placeholder="Mensaje" required></textarea>
-                                <input type="submit" value="ENVIAR">
+                                <input type="hidden" name="form_type" value="contact">
+                                <input type="submit" value="ENVIAR" class="btn">
+                                <div class="form-output"></div>
                             </div>
                         </div>
                     </form>
