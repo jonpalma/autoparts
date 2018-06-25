@@ -258,6 +258,8 @@
                             <input class="btn" type="submit" value="Enviar">
                             <input type="hidden" name="form_type" value="cot">
                         </div>
+                    </div>
+                    <div class="row no-margin">
                         <div class="col">
                             <div class="form-output"></div>
                         </div>

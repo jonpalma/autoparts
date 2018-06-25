@@ -115,6 +115,11 @@ body {
 }
 
 /* NAVBAR */
+#top {
+    position: absolute;
+    top: 0;
+}
+
 .top-nav {
     background-color: #000;
     color: #fff;
@@ -123,6 +128,7 @@ body {
 
 .navbar {
     height: 150px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
 .navbar .navbar-brand img {
@@ -488,6 +494,7 @@ body {
 }
 
 .cotizador .quotation-container form {
+    padding: 15px 0;
     min-width: 690px;
 }
 

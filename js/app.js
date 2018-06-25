@@ -40,14 +40,14 @@ function addTableRow() {
 
     var item = {
         id: uuid,
-        brand: brand,
-        model: model,
-        year: year,
-        piece: piece,
-        object: object
+        brand: brand.val(),
+        model: model.val(),
+        year: year.val(),
+        piece: piece.val(),
+        object: object.val()
     };
 
-    quotArr.push(item)
+    quotArr.push(item);
 
     brand.val('');
     model.val('');
@@ -125,6 +125,7 @@ $(function() {
                 if(form_type.val() === 'cot') {
                     city.val('');
                     quotArr = [];
+                    $('#quot-table').empty();
                 } else {
                     msg.val('');
                 }

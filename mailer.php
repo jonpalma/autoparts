@@ -79,8 +79,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if($form_type == 'cot') {
         $city = trim($_POST["city"]);
-        $quoArr = $_POST["quotArr"];
-        if(count($quoArr) == 0) {
+        $quoArr = json_decode($_POST["quotArr"],true);
+        if(empty($quoArr)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Oops! Hubo un error no pudimos mandar su mensaje.";
@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Check that data was sent to the mailer.
-    if ( empty($name) OR empty($message)) {
+    if ( empty($name) OR (isset($message) ? empty($message) : false)) {
         // Set a 400 (bad request) response code and exit.
         http_response_code(400);
         echo "Oops! Hubo un error con su envío. Por favor complete la forma y envíela de nuevo.";
@@ -119,7 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Build the email content.
-    $email_content = " \n";
+    $email_content = "\n";
     $email_content .= "Nombre: $name\n";
     $email_content .= "Email: $email\n";
     if($form_type == 'cot') {
@@ -129,14 +129,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content .= "Tel: $tel\n";
 
     if($form_type == 'cot') {
+        $email_content .= "\n--Cotización--\n";
         foreach ($quoArr as $quot) {
-            
-            //$email_content .= $quot[""];
+            $email_content .= "\nMarca: ".$quot["brand"]."\n";
+            $email_content .= "Modelo: ".$quot["model"]."\n";
+            $email_content .= "Año: ".$quot["year"]."\n";
+            $email_content .= "Pieza: ".$quot["piece"]."\n";
+            $email_content .= "Objeto: ".$quot["object"]."\n";
         }
     } else {
         $email_content .= "\nMensaje:\n$message\n";
     }
-
 
     // Build the email headers.
     $email_headers = "De: $name <$email>";

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="hidden" id="top"></div>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <!--/* NAVBAR */-->
@@ -33,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto float-right">
                     <li class="nav-item active">
-                        <a class="nav-link smoothScroll" href="#banner">Inicio</a>
+                        <a class="nav-link smoothScroll" href="#top">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link smoothScroll" href="#nosotros">Nosotros</a>
