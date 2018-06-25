@@ -28,7 +28,7 @@ function addTableRow() {
     var uuid = Math.random().toString(36).substring(7);
 
     table.append(
-        '<div class="t-body row" id="'+uuid+'">' +
+        '<div class="t-body row no-margin" id="'+uuid+'">' +
         '<div class="col"><span class="text">'+brand.val()+'</span></div>' +
         '<div class="col"><span class="text">'+model.val()+'</span></div>' +
         '<div class="col"><span class="text">'+year.val()+'</span></div>' +
@@ -72,18 +72,16 @@ function deleteRow(btn) {
 $(function() {
     // Set up an event listener for the contact form.
     $('.contact-form').submit(function(e) {
+        // Stop the browser from submitting the form.
+        e.preventDefault();
         var form = $(this),
             formMessages = form.find('.form-output'),// Get the messages div.
             name = form.find('input[name=name]'),
             phone = form.find('input[name=phone]'),
             email = form.find('input[name=email]'),
-            msg = form.find('textarea[name=msg]'),
             company = form.find('input[name=company]'),
             form_type = form.find('input[name=form_type]'),
             submitBtn = form.find('input[type=submit]');
-
-        // Stop the browser from submitting the form.
-        e.preventDefault();
         submitBtn.val("Enviando...");
 
         var form_data = {
@@ -91,14 +89,16 @@ $(function() {
             phone: phone.val(),
             email: email.val(),
             company: company.val(),
-            msg: msg.val(),
             form_type: form_type.val()
         };
 
         if(form_type.val() === 'cot') {
             var city = form.find('input[name=city]');
             form_data.city = city.val();
-            form_data.quotArr = quotArr;
+            form_data.quotArr = JSON.stringify(quotArr);
+        } else {
+            var msg = form.find('textarea[name=msg]');
+            form_data.msg = msg.val();
         }
 
         // Submit the form using AJAX.
@@ -120,12 +120,13 @@ $(function() {
                 phone.val('');
                 email.val('');
                 company.val('');
-                msg.val('');
                 submitBtn.val("Enviar");
 
                 if(form_type.val() === 'cot') {
                     city.val('');
                     quotArr = [];
+                } else {
+                    msg.val('');
                 }
             })
             .fail(function(data) {

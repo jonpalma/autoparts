@@ -75,7 +75,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $tel = trim($_POST["phone"]);
     $company = trim($_POST["company"]);
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-    $message = trim($_POST["msg"]);
     $form_type = trim($_POST["form_type"]);
 
     if($form_type == 'cot') {
@@ -87,6 +86,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Oops! Hubo un error no pudimos mandar su mensaje.";
             exit;
         }
+    } else {
+        $message = trim($_POST["msg"]);
     }
 
     // Check that data was sent to the mailer.
@@ -127,7 +128,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content .= "Empresa: $company\n";
     $email_content .= "Tel: $tel\n";
 
-    $email_content .= "\nMensaje:\n$message\n";
+    if($form_type == 'cot') {
+        foreach ($quoArr as $quot) {
+            
+            //$email_content .= $quot[""];
+        }
+    } else {
+        $email_content .= "\nMensaje:\n$message\n";
+    }
+
 
     // Build the email headers.
     $email_headers = "De: $name <$email>";

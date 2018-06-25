@@ -1,5 +1,3 @@
-
-
 /* FONTS */
 @font-face {
     src: url("fonts/AvenirNextLTPro-Bold.otf");
@@ -165,6 +163,7 @@ body {
 
 /* BANNER */
 .banner {
+    margin-top: 204px;
     background: url("img/banner/bg1.jpg") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 204px);
@@ -206,13 +205,13 @@ body {
     transform: rotate(180deg);
 }
 
-.banner button {
+.banner a.btn {
     border: 1px solid #fff;
     background-color: transparent;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    color: #fff;
+    color: #fff!important;
     padding: 5px 10px;
     margin-top: 20px;
 }
@@ -484,6 +483,14 @@ body {
     color: #e8b52e;
 }*/
 
+.cotizador .quotation-container {
+    overflow: auto;
+}
+
+.cotizador .quotation-container form {
+    min-width: 690px;
+}
+
 /* MAPA */
 .mapa .googleMap {
     height: 400px;
@@ -577,6 +584,7 @@ body {
     /* NAVBAR */
     .navbar {
         height: auto;
+        border-bottom: 1px solid rgba(0,0,0,.3);
     }
     .navbar .navbar-brand img {
         height: 50px;
@@ -591,6 +599,7 @@ body {
     }
     /* BANNER */
     .banner {
+        margin-top: 130px;
         height: calc(100vh - 130px);
     }
     /* SERVICIOS */

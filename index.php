@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-8 col-sm-10">
                         <h1 class="bold text-white">Surtimos para toda la República Mexicana</h1>
-                        <button class="btn">Cotizar ahora&nbsp;<i class="fas fa-arrow-right"></i></button>
+                        <a class="btn smoothScroll" href="#cotizador">Cotizar ahora&nbsp;<i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -204,60 +204,66 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <div class="cotizador spacing" id="cotizador">
         <div class="container">
-            <form action="" method="POST">
-                <h2 class="section-title no-separator">Cotiza con <span class="bold">nostros</span></h2>
-                <div class="row">
-                    <div class="col">
-                        <input type="text" name="name" placeholder="Nombre" class="form-control">
+            <h2 class="section-title no-separator">Cotiza con <span class="bold">nostros</span></h2>
+            <div class="quotation-container">
+                <form action="mailer.php" method="POST" class="contact-form">
+                    <div class="row no-margin">
+                        <div class="col">
+                            <input type="text" name="name" placeholder="Nombre" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="text" name="phone" placeholder="Teléfono" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="text" name="company" placeholder="Empresa" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="email" name="email" placeholder="Correo" class="form-control">
+                        </div>
+                        <div class="col">
+                            <input type="text" name="city" placeholder="Ciudad" class="form-control">
+                        </div>
                     </div>
-                    <div class="col">
-                        <input type="text" name="phone" placeholder="Teléfono" class="form-control">
-                    </div>
-                    <div class="col">
-                        <input type="text" name="company" placeholder="Empresa" class="form-control">
-                    </div>
-                    <div class="col">
-                        <input type="email" name="email" placeholder="Correo" class="form-control">
-                    </div>
-                    <div class="col">
-                        <input type="text" name="city" placeholder="Ciudad" class="form-control">
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col">
-                        <label for="">Marca</label>
-                        <input type="text" id="brand" class="form-control">
-                    </div>
-                    <div class="col">
-                        <label for="">Modelo</label>
-                        <input type="text" id="model" class="form-control">
-                    </div>
-                    <div class="col">
-                        <label for="">Año</label>
-                        <input type="text" id="year" class="form-control">
-                    </div>
-                    <div class="col">
-                        <label for="">Pieza</label>
-                        <input type="text" id="piece" class="form-control">
-                    </div>
-                    <div class="col">
-                        <label for="">Objeto</label>
-                        <div class="input-group mb-3">
-                            <input type="text" id="object" class="form-control">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button" id="add-table-row"><i class="fas fa-plus"></i></button>
+                    <hr>
+                    <div class="row no-margin">
+                        <div class="col">
+                            <label for="">Marca</label>
+                            <input type="text" id="brand" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="">Modelo</label>
+                            <input type="text" id="model" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="">Año</label>
+                            <input type="text" id="year" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="">Pieza</label>
+                            <input type="text" id="piece" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label for="">Objeto</label>
+                            <div class="input-group mb-3">
+                                <input type="text" id="object" class="form-control">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button" id="add-table-row"><i class="fas fa-plus"></i></button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="semi-table" id="quot-table"></div>
-                <div class="row">
-                    <div class="col text-right">
-                        <input class="btn" type="submit" value="Enviar">
+                    <div class="semi-table" id="quot-table"></div>
+                    <div class="row no-margin">
+                        <div class="col text-right">
+                            <input class="btn" type="submit" value="Enviar">
+                            <input type="hidden" name="form_type" value="cot">
+                        </div>
+                        <div class="col">
+                            <div class="form-output"></div>
+                        </div>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -270,7 +276,7 @@
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--/* DIV */-->
+    <!--/* CONTACTO */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <div class="contacto spacing" id="contacto">
