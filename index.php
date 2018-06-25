@@ -73,19 +73,6 @@
                 </div>
             </div>
         </div>
-        <!-- HEXAGON BACKGROUND SVG -->
-        <!--<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
-            <defs>
-                <pattern id="hexagons" width="50" height="43.4" patternUnits="userSpaceOnUse" patternTransform="scale(3) translate(2) rotate(0)">
-                    <polygon points="24.8,22 37.3,29.2 37.3,43.7 24.8,50.9 12.3,43.7 12.3,29.2" id="hex" />
-                    <use xlink:href="#hex" x="25" />
-                    <use xlink:href="#hex" x="-25" />
-                    <use xlink:href="#hex" x="12.5" y="-21.7" />
-                    <use xlink:href="#hex" x="-12.5" y="-21.7" />
-                </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#hexagons)" />
-        </svg>-->
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
@@ -209,19 +196,19 @@
                 <form action="mailer.php" method="POST" class="contact-form">
                     <div class="row no-margin">
                         <div class="col">
-                            <input type="text" name="name" placeholder="Nombre" class="form-control">
+                            <input type="text" name="name" placeholder="Nombre" required class="form-control">
                         </div>
                         <div class="col">
-                            <input type="text" name="phone" placeholder="Teléfono" class="form-control">
+                            <input type="text" name="phone" placeholder="Teléfono" required class="form-control">
                         </div>
                         <div class="col">
-                            <input type="text" name="company" placeholder="Empresa" class="form-control">
+                            <input type="text" name="company" placeholder="Empresa" required class="form-control">
                         </div>
                         <div class="col">
-                            <input type="email" name="email" placeholder="Correo" class="form-control">
+                            <input type="email" name="email" placeholder="Correo" required class="form-control">
                         </div>
                         <div class="col">
-                            <input type="text" name="city" placeholder="Ciudad" class="form-control">
+                            <input type="text" name="city" placeholder="Ciudad" required class="form-control">
                         </div>
                     </div>
                     <hr>
