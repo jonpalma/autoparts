@@ -12,11 +12,7 @@
                 </div>
                 <div class="col-md col-8">
                     <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
+                        Nuestro compromiso es el surtido rápido y de calidad para que sus clientes y nuestros clientes puedan estar satisfechos de la entrega de nuestras piezas. 
                     </p>
                 </div>
                 <div class="col-md col-4">
@@ -24,11 +20,11 @@
                         <div class="col-md col-12">
                             <h4 class="bold">MENÚ</h4>
                             <ul>
-                                <a href=""><li>Inicio</li></a>
-                                <a href=""><li>Nosotros</li></a>
-                                <a href=""><li>Servicios</li></a>
-                                <a href=""><li>Autopartes</li></a>
-                                <a href=""><li>Nosotros</li></a>
+                                <a href="#"><li>Inicio</li></a>
+                                <a href="#"><li>Nosotros</li></a>
+                                <a href="#"><li>Servicios</li></a>
+                                <a href="#"><li>Autopartes</li></a>
+                                <a href="#"><li>Nosotros</li></a>
                             </ul>
                         </div>
                         <div class="col-auto social-media">

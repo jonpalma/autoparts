@@ -83,92 +83,91 @@
         <div class="container">
             <h2 class="section-title">Auto<span class="bold">partes</span></h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
+                Manejamos las marcas de autos más usadas en México, con marcas y modelos recientes.
             </p>
             <div id="brandsCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-keyboard="true" data-pause="hover" data-interval="5000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/1.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/2.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/3.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/4.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/5.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/6.jpg" alt="logo" class="mx-auto">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/7.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/8.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/9.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/10.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/11.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/12.jpg" alt="logo" class="mx-auto">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/13.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/14.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/15.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/16.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/17.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/18.jpg" alt="logo" class="mx-auto">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/19.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/20.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/1.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/21.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/2.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/22.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/3.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/23.jpg" alt="logo" class="mx-auto">
                             </div>
                             <div class="col-4 col-sm-4 col-md text-center">
-                                <img src="img/autopartes/4.png" alt="logo" class="mx-auto">
+                                <img src="img/autopartes/24.jpg" alt="logo" class="mx-auto">
                             </div>
                         </div>
                     </div>
@@ -261,7 +260,7 @@
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <div class="mapa" id="mapa">
-        <div class="googleMap" data-lat="28.674055" data-long="-106.077613" data-title="Autoparts"></div>
+        <div class="googleMap" data-lat="20.5904915" data-long="-103.22450939999999" data-title="Autoparts"></div>
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
@@ -305,8 +304,8 @@
                         </div>
                         <div class="col">
                             <span class="text">
-                                Oficina  (33) 36412290<br>
-                                Whatsapp  +1832 875 2314
+                                Oficina  (33) 3641 2290<br>
+                                Whatsapp  (832) 875 2314
                             </span>
                         </div>
                     </div>
@@ -331,7 +330,7 @@
                         <div class="col">
                             <span class="text">
                                 Carretera libre a Zapotlanejo No. 2210<br>
-                                Col. Jauja. Guadalajara, Jal.
+                                Col. Jauja. Guadalajara, Jalisco    .
                             </span>
                         </div>
                     </div>

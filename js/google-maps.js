@@ -15,7 +15,7 @@ function initMap() {
 function mapConfig(map_canvas,lat,long,title) {
     var map_options = {
         center: new google.maps.LatLng(lat, long),
-        zoom: 17,
+        zoom: 11,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false,
         streetViewControl: false,
