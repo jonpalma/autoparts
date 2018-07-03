@@ -113,9 +113,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     if($form_type == 'cot') {
-        $subject = "Solicitud de cotización enviada del sitio web de Besltone";
+        $subject = "Cotización  sitio web de Autoparts";
     } else {
-        $subject = "Mensaje enviado desde la forma de contacto del sitio web de Besltone";
+        $subject = "Mensaje enviado del sitio web de Autoparts";
     }
 
     // Build the email content.
