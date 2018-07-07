@@ -30,12 +30,8 @@
                         la <span class="bold">República Mexicana</span>
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                       Surgimos hace 4 años ante la gran necesidad de abastecimiento de autopartes de colisión en origen de uso, a lo largo de este tiempo hemos garantizado el abasto constante y efectivo de nuestro inventario, ofreciendo una gama amplia de productos y precios competitivos, formando una empresa solida y rentable para nuestros clientes.
+
                     </p>
                 </div>
                 <div class="col-md-5 d-lg-block d-md-block d-none">

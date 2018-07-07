@@ -18,23 +18,24 @@
                 <div class="col-md col-4">
                     <div class="row align-items-center">
                         <div class="col-md col-12">
-                            <h4 class="bold">MENÚ</h4>
+                            <h4 class="bold">SERVICIOS</h4>
                             <ul>
-                                <a href="#"><li>Inicio</li></a>
-                                <a href="#"><li>Nosotros</li></a>
-                                <a href="#"><li>Servicios</li></a>
-                                <a href="#"><li>Autopartes</li></a>
-                                <a href="#"><li>Nosotros</li></a>
+                                <li>- 25 mil piezas en inventario.</li>
+                                <li>- Entrega a domicilio.</li>
+                                <li>- Repuestos nuevo original.</li>
+                                <li>- Repuestos genérico.</li>
+                                <li>- Repuestos usado original.</li>
+                                <li>- Repuestos OEM.</li>
                             </ul>
                         </div>
-                        <div class="col-auto social-media">
+                        <!--<div class="col-auto social-media">
                             <a href="" class="sqr-i-btn sqr-white">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                             <a href="" class="sqr-i-btn sqr-white">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>

@@ -5,11 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Autoparts - Surtido de partes de colisión y autosurtido en México.</title>
+    <title>Autoparts - Surtido de partes de colisión y autosurtido en Guadalajara.</title>
+    <meta name="description" content="Surtdio y abastecimiento de autopartes de colisión, más de 25 mil piezas en inventario, Entrega a domicilio, Repuestos nuevo original, Repuestos genérico, Repuestos usado original y Repuestos OEM en Guadalajara, Jalisco.">
     <link rel="shortcut icon" type="image/png" href="img/icon.ico"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121858213-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121858213-1');
+    </script>
+
 </head>
 <body>
 <div class="hidden" id="top"></div>
